@@ -18,17 +18,17 @@ A smooth, interactive tag selector component built with **React**, **TypeScript*
 
 2. **Ensure Tailwind CSS is configured in your project.**
 
-#  Components
+##  Components
 **Tag.tsx**
 The individual animated component that represents a single item.
 
 **TagList.tsx**
 The wrapper component that manages the list state.
 
-#  Usage
+##  Usage
 Import the **TagList** into your main **App.tsx**:
 import TagList from './components/TagList'
-
+```tsx
 function App() {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center">
